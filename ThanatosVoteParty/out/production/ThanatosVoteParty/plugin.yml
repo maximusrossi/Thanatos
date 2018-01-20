@@ -1,0 +1,20 @@
+main: xyz.maximus.tvp.Main
+name: ThanatosVoteParty
+version: 1.0
+commands:
+  thanatosvoteparty:
+    aliases: [tvp]
+    description: Thanatos Vote Party commands (set, reload, reset).
+    permission: thanatosvoteparty.admin
+  voteparty:
+    aliases: [vp]
+    description: Open vote party GUI.
+    permission: thanatosvoteparty.gui
+
+permissions:
+   thanatosvoteparty.admin:
+     default: op
+     description: Gives permission to /tvp.
+   thanatosvoteparty.gui:
+     default: op
+     description: Open up the party GUI.
